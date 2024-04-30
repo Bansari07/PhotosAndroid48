@@ -1,0 +1,270 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.photosandroid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+11-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:5:5-75
+11-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+13-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:7:5-82
+13-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:7:22-79
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] /Users/bansarimehta/.gradle/caches/transforms-3/4f144917642e7cf2dcc7fea15e15ed71/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.photosandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] /Users/bansarimehta/.gradle/caches/transforms-3/4f144917642e7cf2dcc7fea15e15ed71/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] /Users/bansarimehta/.gradle/caches/transforms-3/4f144917642e7cf2dcc7fea15e15ed71/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.photosandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] /Users/bansarimehta/.gradle/caches/transforms-3/4f144917642e7cf2dcc7fea15e15ed71/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] /Users/bansarimehta/.gradle/caches/transforms-3/4f144917642e7cf2dcc7fea15e15ed71/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:9:5-62:19
+22        android:allowBackup="true"
+22-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:11:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] /Users/bansarimehta/.gradle/caches/transforms-3/4f144917642e7cf2dcc7fea15e15ed71/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:12:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:13:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:14:9-43
+29        android:label="@string/app_name"
+29-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:15:9-41
+30        android:requestLegacyExternalStorage="true"
+30-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:10:9-52
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:17:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.PhotosAndroid" >
+34-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:18:9-51
+35        <activity
+35-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:22:9-25:82
+36            android:name="com.example.photosandroid.AlbumViewActivity"
+36-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:23:13-46
+37            android:exported="false"
+37-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:24:13-37
+38            android:parentActivityName="com.example.photosandroid.MainActivity" />
+38-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:25:13-80
+39        <activity
+39-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:26:9-29:78
+40            android:name="com.example.photosandroid.SelectAlbumActivity"
+40-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:27:9-44
+41            android:exported="false"
+41-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:28:9-33
+42            android:parentActivityName="com.example.photosandroid.MainActivity" />
+42-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:29:9-76
+43        <activity
+43-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:31:9-34:82
+44            android:name="com.example.photosandroid.SearchActivity"
+44-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:32:13-43
+45            android:exported="false"
+45-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:33:13-37
+46            android:parentActivityName="com.example.photosandroid.MainActivity" />
+46-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:34:13-80
+47        <activity
+47-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:36:9-39:87
+48            android:name="com.example.photosandroid.photoViewActivity"
+48-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:37:13-46
+49            android:exported="false"
+49-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:38:13-37
+50            android:parentActivityName="com.example.photosandroid.AlbumViewActivity" />
+50-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:39:13-85
+51        <activity
+51-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:41:9-44:87
+52            android:name="com.example.photosandroid.TagActivity"
+52-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:42:13-40
+53            android:exported="false"
+53-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:43:13-37
+54            android:parentActivityName="com.example.photosandroid.photoViewActivity" />
+54-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:44:13-85
+55        <activity
+55-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:46:9-49:84
+56            android:name="com.example.photosandroid.SearchResultsActivity"
+56-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:47:13-50
+57            android:exported="false"
+57-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:48:13-37
+58            android:parentActivityName="com.example.photosandroid.SearchActivity" />
+58-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:49:13-82
+59        <activity
+59-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:51:9-59:20
+60            android:name="com.example.photosandroid.MainActivity"
+60-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:52:13-41
+61            android:exported="true" >
+61-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:53:13-36
+62            <intent-filter>
+62-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:54:13-58:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:55:17-69
+63-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:55:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:57:17-77
+65-->/Users/bansarimehta/Desktop/PhotosAndroid48/PhotosAndroid-master/app/src/main/AndroidManifest.xml:57:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/bansarimehta/.gradle/caches/transforms-3/293637d11c7a84493c5851449fc33290/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/bansarimehta/.gradle/caches/transforms-3/293637d11c7a84493c5851449fc33290/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+71            android:authorities="com.example.photosandroid.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/bansarimehta/.gradle/caches/transforms-3/293637d11c7a84493c5851449fc33290/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/bansarimehta/.gradle/caches/transforms-3/293637d11c7a84493c5851449fc33290/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/bansarimehta/.gradle/caches/transforms-3/293637d11c7a84493c5851449fc33290/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/bansarimehta/.gradle/caches/transforms-3/293637d11c7a84493c5851449fc33290/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/bansarimehta/.gradle/caches/transforms-3/293637d11c7a84493c5851449fc33290/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/bansarimehta/.gradle/caches/transforms-3/cdd84186d9ec1ceea4fabba28ab9cde1/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/bansarimehta/.gradle/caches/transforms-3/cdd84186d9ec1ceea4fabba28ab9cde1/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/bansarimehta/.gradle/caches/transforms-3/cdd84186d9ec1ceea4fabba28ab9cde1/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+81                android:value="androidx.startup" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+82        </provider>
+83
+84        <receiver
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+85            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+86            android:directBootAware="false"
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+87            android:enabled="true"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+88            android:exported="true"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+89            android:permission="android.permission.DUMP" >
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+91                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+94                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+97                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+100                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bansarimehta/.gradle/caches/transforms-3/134e50b543e4d6d74efba5bd394e9c92/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+101            </intent-filter>
+102        </receiver>
+103    </application>
+104
+105</manifest> <!-- <?xml version="1.0" encoding="utf-8"?> -->
+106<!-- <manifest xmlns:android="http://schemas.android.com/apk/res/android" -->
+107<!-- xmlns:tools="http://schemas.android.com/tools"> -->
+108<!-- <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/> -->
+109<!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+110<!-- <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" /> -->
+111<!-- <application -->
+112<!-- android:requestLegacyExternalStorage="true" -->
+113<!-- android:allowBackup="true" -->
+114<!-- android:dataExtractionRules="@xml/data_extraction_rules" -->
+115<!-- android:fullBackupContent="@xml/backup_rules" -->
+116<!-- android:icon="@mipmap/ic_launcher" -->
+117<!-- android:label="@string/app_name" -->
+118<!-- android:roundIcon="@mipmap/ic_launcher_round" -->
+119<!-- android:supportsRtl="true" -->
+120<!-- android:theme="@style/Theme.PhotosAndroid" -->
+121<!-- tools:targetApi="31" -->
+122<!-- > -->
+123<!-- <activity -->
+124<!-- android:name=".AlbumViewActivity" -->
+125<!-- android:exported="false" -->
+126<!-- android:parentActivityName="com.example.photosandroid.MainActivity"/> -->
+127<!-- <activity -->
+128<!-- android:name=".MainActivity" -->
+129<!-- android:exported="true"> -->
+130<!-- <intent-filter> -->
+131<!-- <action android:name="android.intent.action.MAIN" /> -->
+132<!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+133<!-- </intent-filter> -->
+134<!-- </activity> -->
+135<!-- </application> -->
+136<!-- </manifest> -->
+137<!-- the legit one -->
+138<!-- <?xml version="1.0" encoding="utf-8"?> -->
+139<!-- <manifest xmlns:android="http://schemas.android.com/apk/res/android" -->
+140<!-- xmlns:tools="http://schemas.android.com/tools"> -->
+141<!-- <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/> -->
+142<!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+143<!-- <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" /> -->
+144<!-- <application -->
+145<!-- android:requestLegacyExternalStorage="true" -->
+146<!-- android:allowBackup="true" -->
+147<!-- android:dataExtractionRules="@xml/data_extraction_rules" -->
+148<!-- android:fullBackupContent="@xml/backup_rules" -->
+149<!-- android:icon="@mipmap/ic_launcher" -->
+150<!-- android:label="@string/app_name" -->
+151<!-- android:roundIcon="@mipmap/ic_launcher_round" -->
+152<!-- android:supportsRtl="true" -->
+153<!-- android:theme="@style/Theme.PhotosAndroid" -->
+154<!-- tools:targetApi="31" -->
+155<!-- > -->
+156<!-- <activity -->
+157<!-- android:name=".AlbumViewActivity" -->
+158<!-- android:exported="false" -->
+159<!-- android:parentActivityName="com.example.photosandroid.MainActivity"/> -->
+160<!-- <activity -->
+161<!-- android:name=".SearchActivity" -->
+162<!-- android:exported="false" -->
+163<!-- android:parentActivityName="com.example.photosandroid.MainActivity"/> -->
+164<!-- <activity -->
+165<!-- android:name=".photoViewActivity" -->
+166<!-- android:exported="false" -->
+167<!-- android:parentActivityName="com.example.photosandroid.AlbumViewActivity"/> -->
+168<!-- <activity -->
+169<!-- android:name=".TagActivity" -->
+170<!-- android:exported="false" -->
+171<!-- android:parentActivityName="com.example.photosandroid.photoViewActivity"/> -->
+172<!-- <activity -->
+173<!-- android:name=".SearchResultsActivity" -->
+174<!-- android:exported="false" -->
+175<!-- android:parentActivityName="com.example.photosandroid.SearchActivity"/> -->
+176<!-- <activity -->
+177<!-- android:name=".MainActivity" -->
+178<!-- android:exported="true"> -->
+179<!-- <intent-filter> -->
+180<!-- <action android:name="android.intent.action.MAIN" /> -->
+181<!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+182<!-- </intent-filter> -->
+183<!-- </activity> -->
+184<!-- </application> -->
+185<!-- </manifest> -->
