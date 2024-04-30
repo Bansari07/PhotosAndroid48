@@ -20,7 +20,7 @@ This app lets you manage photo albums on Android. You can create, view, and edit
 
 ## Running the App
 1. Open the project in Android Studio.
-2. Set up and run it on a Nexus 4 emulator.
+2. Set up and run it
 
 
 
